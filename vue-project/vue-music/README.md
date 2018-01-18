@@ -140,19 +140,6 @@
     └── 5.png
 
 ```
-
-## 项目截图
-
-![image](https://github.com/zhanghuiqi205/MVVM-Project-Management/blob/master/vue-project/vue-music/static/2.png)
-
-![image](https://github.com/zhanghuiqi205/MVVM-Project-Management/blob/master/vue-project/vue-music/static/4.png)
-
-![image](https://github.com/zhanghuiqi205/MVVM-Project-Management/blob/master/vue-project/vue-music/static/5.png)
-
-![image](https://github.com/zhanghuiqi205/MVVM-Project-Management/blob/master/vue-project/vue-music/static/3.png)
-
-
-
 ### 安装与运行
 
 ```
