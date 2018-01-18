@@ -2,20 +2,18 @@
   "name": "vue-music",
   "version": "1.0.0",
   "description": "音乐播放器",
-  "author": "zhanghuiqi205 <649676852@qq.com>",
+  "author": "songhao",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
-    "unit": "jest --config test/unit/jest.conf.js --coverage",
-    "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e",
-    "build": "node build/build.js"
+    "dev": "node build/dev-server.js",
+    "start": "node build/dev-server.js",
+    "build": "node build/build.js",
+    "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
     "babel-runtime": "^6.0.0",
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1",
+    "vue": "^2.3.3",
+    "vue-router": "^2.5.3",
     "vuex": "^2.3.1",
     "fastclick": "^1.0.6",
     "vue-lazyload": "1.0.3",
@@ -75,7 +73,7 @@
     "vconsole": "^2.5.2"
   },
   "engines": {
-    "node": ">= 6.0.0",
+    "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
   },
   "browserslist": [
