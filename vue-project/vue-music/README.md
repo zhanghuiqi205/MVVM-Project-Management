@@ -141,7 +141,7 @@
 
 ```
 ### 安装与运行
-
+```
 cd vue-music
 
 npm install
